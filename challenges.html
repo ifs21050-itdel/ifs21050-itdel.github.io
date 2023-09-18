@@ -2,84 +2,91 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Praktikum PABWE</title>
-    <link rel="stylesheet" type="text/css" href="custom.css" />
+    <title>Challenges</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="layouts.css" />
   </head>
   <body>
     <!-- Membuat artikel sederhana dengan HTML -->
-    <header>
-      <h1>&#128293; Challenges</h1>
+    <div class="container">
+      <header class="main-header clearfix">
+        <h1>&#128293; Challenges</h1>
 
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="challenges.html">Challenges</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="login.html">Login</a>
-      </nav>
-    </header>
-
-    <article>
-      <header>
-        <h2>Malas Ngoding? ini Solusinya!</h2>
-        <br>
-        <p>
-          Ditulis oleh
-          <strong>Ella Silaban</strong>
-          pada hari Minggu, 3 September 2023
-        </p>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="challenges.html">Challenges</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="login.html">Login</a>
+        </nav>
       </header>
 
-      <p>
-        Pernahkah kamu mengalami malas ngoding? Bisa jadi kamu mengalami rasa
-        malas atau stuck setelah memikirkan algoritma yang sudah begitu rumit
-        untuk membangun sebuah program. Nah, pas banget, artikel ini akan
-        memberi tips untuk anti malas ngoding.
-      </p>
-      <p>
-        Artikel ini sangat istimewa, lo! Mengapa? Sebabnya, kami telah merangkum
-        hasil bincang-bincang dengan para product engineer dalam memberikan tips
-        ini untukmu. Yuk, baca sampai selesai!
-      </p>
+      <!-- Hanya untuk flexbox -->
+      <!-- <div class="row"> -->
+      <article>
+        <header class="post-header">
+          <h2 class="top">Malas Ngoding? ini Solusinya!</h2>
 
-      <h3>Penyebab Malas Ngoding</h3>
-      <p>
-        Jika kamu mengalami stuck atau malas ketika sedang membangun program,
-        sebelum beranjak kepada tipsnya, tentu kita harus mencari tahu alasan
-        dari perasaan malas yang muncul ketika membangun sebuah program. Nah,
-        apakah teman-teman penasaran terhadap penyebab malas ngoding? Kalau
-        menurut para product engineer, inilah hal-hal yang bisa menyebabkan
-        perasaan tersebut muncul.
-      </p>
-      <p>
-        <ul>
-          <li>Kode yang Terlalu Panjang</li>
-          Para developer tentu relate dengan permasalahan yang satu ini. 
-          Ketika membangun sebuah program, terkadang kode yang harus dibuat terlalu panjang. 
-          Meskipun kode dibuat sendiri, apabila terlalu panjang bisa menghabiskan banyak waktu untuk membaca dan meninjaunya.
-          Tentu ini bisa menyebabkan rasa suntuk, khususnya ketika proses tersebut terjadi berulang-ulang.
-          <li>Program yang Sangat Kompleks</li>
-          Selain kode yang terlalu panjang, ada juga program yang sangat kompleks. 
-          Keberagaman fitur yang harus dibangun tentu membuat program semakin rumit. 
-          <li>Pekerjaan yang Repetitif saat Ngoding</li>
-          Bagi sebagian orang, mengerjakan sesuatu berulang-ulang adalah hal yang membosankan. 
-          Kode yang sama bisa jadi direviu berulang-ulang atau 
-          hanya ada sedikit perubahan di dalamnya sehingga menyebabkan rasa malas. 
-          Error yang terus berulang dan belum ditemukan penyebabnya juga menjadi penghambat datangnya semangat dalam diri untuk membangun program.
-          <li>Deadline yang Terlalu Dekat</li>
-          Adakah di antara kalian yang relate dengan hal ini? 
-          Ya, deadline juga bisa menjadi suatu masalah saat membangun sebuah program. 
-          Ketika pekerjaan harus dilakukan dalam waktu singkat, beberapa orang bisa saja justru menjadi malas. 
-          Hal ini juga bisa menyebabkan overwork ketika ekspektasi yang begitu besar harus diwujudkan dalam waktu singkat.
-          <li>Perubahan Mendadak dari Faktor Eksternal</li>
-          Beberapa faktor ini sulit untuk dikendalikan sehingga respons yang sering terjadi adalah rasa malas.
-          Misalnya, ketika terjadi beberapa perubahan dalam suatu dependensi. 
-          Hal lainnya adalah beberapa service yang down tiba-tiba dan tidak bisa digunakan. 
-          Hal-hal tersebut terlihat kecil, tetapi dapat merambat ke hal lainnya sehingga menjadi masalah besar.
-        </ul>
+          <div class="author-box">
+            <img src="ella.jpg" alt="Photo profile" width="50" height="50" />
+            <br />
+            <p id="author">
+              Ditulis oleh
+              <strong>Ella Silaban</strong>
+              pada hari Senin, 15 September 2023
+            </p>
+          </div>
+        </header>
 
-      </p>
-      <h4>Tips Anti Malas Ngoding</h4>
+        <p>
+          Pernahkah kamu mengalami malas ngoding? Bisa jadi kamu mengalami rasa
+          malas atau stuck setelah memikirkan algoritma yang sudah begitu rumit
+          untuk membangun sebuah program. Nah, pas banget, artikel ini akan
+          memberi tips untuk anti malas ngoding.
+        </p>
+        <p>
+          Artikel ini sangat istimewa, lo! Mengapa? Sebabnya, kami telah
+          merangkum hasil bincang-bincang dengan para product engineer dalam
+          memberikan tips ini untukmu. Yuk, baca sampai selesai!
+        </p>
+
+        <h3>Penyebab Malas Ngoding</h3>
+        <p>
+          Jika kamu mengalami stuck atau malas ketika sedang membangun program,
+          sebelum beranjak kepada tipsnya, tentu kita harus mencari tahu alasan
+          dari perasaan malas yang muncul ketika membangun sebuah program. Nah,
+          apakah teman-teman penasaran terhadap penyebab malas ngoding? Kalau
+          menurut para product engineer, inilah hal-hal yang bisa menyebabkan
+          perasaan tersebut muncul.
+        </p>
+        <p>
+          <ul>
+            <li>Kode yang Terlalu Panjang</li>
+            Para developer tentu relate dengan permasalahan yang satu ini. 
+            Ketika membangun sebuah program, terkadang kode yang harus dibuat terlalu panjang. 
+            Meskipun kode dibuat sendiri, apabila terlalu panjang bisa menghabiskan banyak waktu untuk membaca dan meninjaunya.
+            Tentu ini bisa menyebabkan rasa suntuk, khususnya ketika proses tersebut terjadi berulang-ulang.
+            <li>Program yang Sangat Kompleks</li>
+            Selain kode yang terlalu panjang, ada juga program yang sangat kompleks. 
+            Keberagaman fitur yang harus dibangun tentu membuat program semakin rumit. 
+            <li>Pekerjaan yang Repetitif saat Ngoding</li>
+            Bagi sebagian orang, mengerjakan sesuatu berulang-ulang adalah hal yang membosankan. 
+            Kode yang sama bisa jadi direviu berulang-ulang atau 
+            hanya ada sedikit perubahan di dalamnya sehingga menyebabkan rasa malas. 
+            Error yang terus berulang dan belum ditemukan penyebabnya juga menjadi penghambat datangnya semangat dalam diri untuk membangun program.
+            <li>Deadline yang Terlalu Dekat</li>
+            Adakah di antara kalian yang relate dengan hal ini? 
+            Ya, deadline juga bisa menjadi suatu masalah saat membangun sebuah program. 
+            Ketika pekerjaan harus dilakukan dalam waktu singkat, beberapa orang bisa saja justru menjadi malas. 
+            Hal ini juga bisa menyebabkan overwork ketika ekspektasi yang begitu besar harus diwujudkan dalam waktu singkat.
+            <li>Perubahan Mendadak dari Faktor Eksternal</li>
+            Beberapa faktor ini sulit untuk dikendalikan sehingga respons yang sering terjadi adalah rasa malas.
+            Misalnya, ketika terjadi beberapa perubahan dalam suatu dependensi. 
+            Hal lainnya adalah beberapa service yang down tiba-tiba dan tidak bisa digunakan. 
+            Hal-hal tersebut terlihat kecil, tetapi dapat merambat ke hal lainnya sehingga menjadi masalah besar.
+          </ul>
+        </p>
+        <h4>Tips Anti Malas Ngoding</h4>
       <p>
         <ul>
           <li>Membagi-bagi Kode Yang Panjang</li>
@@ -100,6 +107,7 @@
           Ekspektasi harus diatur baik dari diri sendiri ataupun klien. 
         </ul>
       </p>
+
       <p>
         Anda dapat mempelajari lebih lanjut di
         <a

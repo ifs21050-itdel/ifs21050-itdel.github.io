@@ -1,194 +1,288 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
-header {
-  color: #1098ad;
-  width: auto;
-  padding: 12px 10px;
-  background-color: #f3f3f3;
+body {
+  color: #444444;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
 }
 
-header h1 {
-  font-style: italic;
-}
-h2 {
-  color: #1098ad;
-  font-style: italic;
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
-header nav a {
-  color: #1098ad;
-  text-decoration: none;
-  padding: 20px 20px;
+.main-header {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+nav {
+  font-size: 18px;
 }
 
 article {
-  margin: 4%;
-}
-article header h2 {
-  color: #1098ad;
-  font-weight: bold;
+  margin-bottom: 60px;
 }
 
-article table {
-  border-color: darkgrey;
-  border-collapse: collapse;
-  margin: 25px 12px;
-  font-size: 0.9em;
-  min-width: 400px;
+.post-header {
+  margin-bottom: 40px;
 }
 
-article table thead tr {
-  background-color: #1098ad;
-  color: #fff;
-  text-align: left;
-  font-weight: bold;
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  padding: 50px 0;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 500px;
 }
 
-article table th,
-article table td {
-  padding: 12px 15px;
-}
-
-article table tbody tr:nth-last-of-type(even) {
-  background-color: #f3f3f3;
-}
-.ijo {
-  background-color: #1098ad;
-}
-
-.hub {
-  text-align: center;
+h1,
+h2,
+h3 {
   color: #1098ad;
 }
 
-.table {
-  width: 90%;
-  margin: 20px 20px;
-}
-
-.table tr td input[type="text"] {
-  border: none;
-  border-bottom: 1px solid darkgray;
-  width: 100%;
-}
-
-.table tr td input[type="email"] {
-  border: none;
-  border-bottom: 1px solid darkgray;
-  width: 100%;
-}
-
-.table tr td input[type="password"] {
-  border: none;
-  border-bottom: 1px solid darkgray;
-  width: 100%;
-}
-
-.table tr td textarea[id="message"] {
-  border: none;
-  border-bottom: 1px solid darkgray;
-  width: 100%;
-}
-
-.table tr td select[name="pekerjaan"] {
-  border: none;
-  border-bottom: 1px solid darkgray;
-  width: 100%;
-  font-size: 14px;
-}
-
-table tr {
-  height: 30px;
-}
-
-article p a {
-  color: #1098ad;
-  text-decoration: none;
-}
-
-.med {
-  width: 1000px;
-  height: 600px;
-}
-
-/*-----Login-----*/
-
-.nav-sty {
-  color: #1098ad;
-  text-decoration: none;
-  padding: 20px 20px;
-}
-
-body h1 {
-  color: #1098ad;
-  margin: 4%;
-  padding: 12px 10px;
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
   font-style: italic;
 }
 
-body nav a {
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0px;
+}
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* Styling links */
+a:link {
   color: #1098ad;
   text-decoration: none;
-  padding: 20px 20px;
 }
 
-.log {
-  text-align: center;
+a:visited {
   color: #1098ad;
 }
 
-.tab {
-  height: 50px;
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
 }
 
-.btn {
-  color: #fff;
-  background-color: #1098ad;
-  padding: 6px 30px;
+a:active {
+  background-color: gainsboro;
+  font-style: italic;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+nav a:link {
+  margin: 10px 30px 0 0;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+.btn-absolute {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 70px;
+  right: 0px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+
+.top {
+  position: relative;
+}
+
+.top::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
   border: none;
-  border-radius: 4px;
+  border-bottom: 1px solid black;
 }
 
-.reg {
-  position: absolute;
-  top: 66%;
-  left: 42%;
-  text-align: center;
+input[type="textarea"] {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px solid black;
 }
 
-@media (max-width: 900px) {
-  .med {
-    width: 600px;
-    height: 550px;
-  }
-
-  .reg {
-    position: absolute;
-    top: 60%;
-    left: 39%;
-    text-align: center;
-  }
-
-  .login {
-    text-decoration: none;
-    position: absolute;
-    top: 80%;
-    left: 36%;
-  }
+.button {
+  height: 30px;
+  width: 75px;
+  background-color: #1098ad;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
 }
 
-.login {
-  text-decoration: none;
-  position: absolute;
-  top: 88%;
-  left: 40%;
+table [id="customers"] {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-.login a {
+tr,
+td,
+th {
+  border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1098ad;
+  color: white;
+}
+
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 0;
+  border-bottom: 1px solid white;
+}
+
+legend {
   color: #1098ad;
-  text-decoration: none;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+fieldset {
+  border: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset input[type="submit"] {
+  align-self: center;
+  height: 30px;
+  width: 75px;
+  background-color: #1098ad;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
 }

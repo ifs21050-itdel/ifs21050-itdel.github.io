@@ -2,50 +2,30 @@
 <html lang="id">
   <head>
     <meta charset="UTF-8" />
-    <title>Blog</title>
-    <link rel="stylesheet" type="text/css" href="custom.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/6483689ab6.js"
-      crossorigin="anonymous"
-    ></script>
+    <title>Praktikum PABWE</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="custom.css"/>
+    <link rel="stylesheet" href="layouts.css" />
   </head>
   <body>
-    <header>
-      <h1>&#128216; BLOG</h1>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="blog.html">Blog</a>
-        <a href="challenges.html">Challenges</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="login.html">Login</a>
-      </nav>
-    </header>
+    <!-- Membuat artikel sederhana dengan HTML -->
+    <div class="container">
+      <header class="main-header clearfix">
+        <h1>&#128216; Majalah Kode</h1>
 
-    <hr />
-
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="blog.html">Blog</a>
+          <a href="challenges.html">Challenges</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="login.html">Login</a>
+        </nav>
+      </header>
     <article>
       <h2>Roadmap Belajar Menjadi <em>Front End Developer</em></h2>
-      <div class="author-box">
-        <img
-          src="/assets/img/abdullah.jpeg"
-          alt="Photo profile"
-          width="50"
-          height="50"
-        />
 
-        <p id="author">
-          Ditulis oleh
-          <strong>Abdullah Ubaid</strong>
-          pada hari Senin, 23 April 2023
-        </p>
-      </div>
-      <br />
+      <img src="assets/img/blog.jpg" alt="Front End Developer" width="500" />
+
       <p>
         Front End Developer adalah seorang yang bertanggung jawab untuk membuat
         tampilan atau interface dari sebuah website atau aplikasi web. Untuk
@@ -55,7 +35,7 @@
         End Developer, berikut adalah roadmap belajar yang bisa kamu ikuti:
       </p>
 
-      <table border="1" cellspacing="0" cellpadding="5">
+      <table border="1" cellspacing="0" cellpadding="5" class="customer">
         <thead>
           <tr align="left">
             <th>Step</th>
@@ -134,10 +114,12 @@
               kompleks dan dinamis.
             </td>
           </tr>
-          <tr class="ijo">
+          <tr>
+            <th colspan="3"></th>
             <td colspan="3"></td>
           </tr>
           <tr align="center">
+            <tr colspan="3">
             <td rowspan="6">Tips</td>
           </tr>
           <tr>
