@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  color: #1098ad;
+  width: auto;
+  padding: 12px 10px;
+  background-color: #f3f3f3;
+}
+
+header h1 {
+  font-style: italic;
+}
+h2 {
+  color: #1098ad;
+  font-style: italic;
+}
+
+header nav a {
+  color: #1098ad;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+article {
+  margin: 4%;
+}
+article header h2 {
+  color: #1098ad;
+  font-weight: bold;
+}
+
+article table {
+  border-color: darkgrey;
+  border-collapse: collapse;
+  margin: 25px 12px;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+article table thead tr {
+  background-color: #1098ad;
+  color: #fff;
+  text-align: left;
+  font-weight: bold;
+}
+
+article table th,
+article table td {
+  padding: 12px 15px;
+}
+
+article table tbody tr:nth-last-of-type(even) {
+  background-color: #f3f3f3;
+}
+.ijo {
+  background-color: #1098ad;
+}
+
+.hub {
+  text-align: center;
+  color: #1098ad;
+}
+
+.table {
+  width: 90%;
+  margin: 20px 20px;
+}
+
+.table tr td input[type="text"] {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+}
+
+.table tr td input[type="email"] {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+}
+
+.table tr td input[type="password"] {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+}
+
+.table tr td textarea[id="message"] {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+}
+
+.table tr td select[name="pekerjaan"] {
+  border: none;
+  border-bottom: 1px solid darkgray;
+  width: 100%;
+  font-size: 14px;
+}
+
+table tr {
+  height: 30px;
+}
+
+article p a {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+.med {
+  width: 1000px;
+  height: 600px;
+}
+
+/*-----Login-----*/
+
+.nav-sty {
+  color: #1098ad;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+body h1 {
+  color: #1098ad;
+  margin: 4%;
+  padding: 12px 10px;
+  font-style: italic;
+}
+
+body nav a {
+  color: #1098ad;
+  text-decoration: none;
+  padding: 20px 20px;
+}
+
+.log {
+  text-align: center;
+  color: #1098ad;
+}
+
+.tab {
+  height: 50px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #1098ad;
+  padding: 6px 30px;
+  border: none;
+  border-radius: 4px;
+}
+
+.reg {
+  position: absolute;
+  top: 66%;
+  left: 42%;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .med {
+    width: 600px;
+    height: 550px;
+  }
+
+  .reg {
+    position: absolute;
+    top: 60%;
+    left: 39%;
+    text-align: center;
+  }
+
+  .login {
+    text-decoration: none;
+    position: absolute;
+    top: 80%;
+    left: 36%;
+  }
+}
+
+.login {
+  text-decoration: none;
+  position: absolute;
+  top: 88%;
+  left: 40%;
+}
+
+.login a {
+  color: #1098ad;
+  text-decoration: none;
+}
